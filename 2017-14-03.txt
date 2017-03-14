@@ -1,0 +1,31 @@
+Components
+
+Main way to build and specify elements and logic on the page
+
+Basic building block of the UI. An Angular application is a tree
+of Angular components.
+
+Decorators allow us to mark a class as an Angular component
+& provide metadata that determines how the component should
+be processed, instantiated and used at runtime.
+
+===============================================================
+
+import { Component } from '@angular/core';
+
+@Component({
+    selector: 'my-component',
+    template: '<div>Hello my name is {{name}}. <button (click)="sayMyName()">Say my name</button>
+})
+export class MyComponent {
+    constructor() {
+        this.name = 'Max'
+    }
+    sayMyName() {
+        console.log('My name is', this.name)
+    }
+}
+
+===============================================================
+
+===============================================================
