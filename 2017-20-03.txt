@@ -1,0 +1,26 @@
+Key:
+    Service : S
+    Component : C
+    Template : T
+
+    * Auth (S)
+    * Board/Home Page (C+T)
+    * Settings Page (C+T)
+    * Reports Page (C+T)
+    * Login Page (C+T)
+    * User Page/Account Management (C+T)
+    * Poll (S)
+    * Sorting (S)
+    * Actionbar (C+T)
+    * DBHelper (S)
+    * General Settings Tab (C+T)
+    * Board Settings Tab (C+T)
+    * Chart/Report Settings Tab (C+T)
+    * Page Header (C+T)
+    * Search View (C+T)
+    * List<Card> View (C+T)
+    * Card View (C+T)
+    * Pie Chart View (C+T)
+    * Bar Chart View (C+T)
+    * Line Char View (C+T)
+    * Search Adapter (?)
